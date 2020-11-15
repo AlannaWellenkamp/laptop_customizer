@@ -37,7 +37,7 @@ class OptionList extends Component {
                 <h2>Customize your laptop</h2>
                 {features}
             </form>
-        )
+        );
     }
 
 }

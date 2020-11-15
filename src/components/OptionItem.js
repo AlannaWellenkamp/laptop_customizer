@@ -22,9 +22,8 @@ class OptionItem extends Component {
                     {this.props.item.name} ({USCurrencyFormat.format(this.props.item.cost)})
                   </label>
             </div>
-        )
-
+        );
     }
-
 }
-export default OptionItem
+
+export default OptionItem;
